@@ -174,7 +174,7 @@ class TableViewCell: UITableViewCell, UICollectionViewDataSource, UICollectionVi
     @objc func deletePic(sender: UIButton) {
         print(sender.tag)
         self.collectionView.performBatchUpdates({
-            let fileManager = FileManager.default
+//            let fileManager = FileManager.default
 //            try! fileManager.removeItem(at: updatePicUrl[sender.tag])
             
             updatePic.remove(at: sender.tag)
